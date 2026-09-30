@@ -1,0 +1,22 @@
+# Build artifacts
+/bin/
+/dist/
+*.exe
+
+# Go
+/vendor/
+.go/
+
+# Local env
+.env
+.env.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Internal
+INTERVIEWER_NOTES.md
+.claude/

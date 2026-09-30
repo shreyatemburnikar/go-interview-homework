@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo Board</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark"></span>
+        <h1>Todo board.</h1>
+      </div>
+      <div class="status" id="status">Loading.</div>
+    </header>
+
+    <main id="app">
+      <p class="empty">No data yet.</p>
+    </main>
+
+    <footer class="footer">
+      <span>GraphQL endpoint:</span>
+      <code id="endpoint"></code>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
